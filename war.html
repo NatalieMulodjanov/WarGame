@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>Play WAR!</title>
+		<script src="War2.js"></script>
+		<script src="Game.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/war.css"></link>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<nav>
+					<ul>
+						<li><a href="">Start New Game</a>
+						<li><a href="">End Game</a>
+					</ul>
+				</nav>
+			</header>
+			
+			<section class="player">
+				<h1 id="playerHeading">Player</h1>
+				<div class="playerScore"><h1>0</h1></div>
+				<figure id="figurePlayer">
+					
+				</figure>
+			</section>
+			
+			<section class="dealer">
+				<h1 id="dealerHeading">Dealer</h1>
+				<div class="dealerScore"><h1>0</h1></div>
+				<figure id="figureDealer">
+
+				</figure>
+			</section>
+			
+			<section class="controls">
+				<button id="nextRoundButton" type="button" onclick="game.nextRound()">Next Round</button>
+			</section>
+			
+			<footer>
+				<ul>
+					<li>Vanier College
+					<li>Internet Programming
+					<li>Winter 2021
+				</ul>
+			</footer>
+		</div>
+	</body>
+</html>
